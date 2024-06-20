@@ -696,6 +696,9 @@
             "attackType": "Save",
             "saveType": "STR",
             "effect": ""
+        },
+        "TestSpell": {
+            "Hello": "world"
         }
     }
 }
