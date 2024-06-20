@@ -1,0 +1,296 @@
+{
+    "Name": "Octavius",
+    "AC": 19,
+    "HPMax": 85,
+    "HPCurrent": 85,
+    "HPTemp": 0,
+    "ClassResources": {
+        "sorceryPoints": 7
+    },
+    "SpellSlots": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+    },
+    "DamageTypesRIV": {
+        "Untyped": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Acid": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Bludgeoning": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Cold": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Fire": {
+            "Resistant": true,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Force": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Lightning": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Necrotic": {
+            "Resistant": true,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Piercing": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Poison": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Psychic": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Radiant": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Slashing": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        },
+        "Thunder": {
+            "Resistant": false,
+            "Immune": false,
+            "Vulnerable": false
+        }
+    },
+    "Classes": {
+        "Sorcerer": {
+            "Subclass": "Voidborne",
+            "Level": 7
+        },
+        "Warlock": {
+            "Subclass": "Pact of the Tome",
+            "Level": 3
+        }
+    },
+    "AbilityScores": {
+        "Str": 4,
+        "Dex": 15,
+        "Con": 19,
+        "Int": 19,
+        "Wis": 13,
+        "Cha": 20
+    },
+    "SavingThrows": {
+        "STR": {
+            "proficient": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "DEX": {
+            "proficient": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "CON": {
+            "proficient": true,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "INT": {
+            "proficient": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "WIS": {
+            "proficient": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "CHA": {
+            "proficient": true,
+            "advantage": 0,
+            "advNotes": ""
+        }
+    },
+    "SavingThrowNotes": "ADV to avoid or end the charmed condition",
+    "Skills": {
+        "Acrobatics": {
+            "ability": "DEX",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Animal Handling": {
+            "ability": "WIS",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Arcana": {
+            "ability": "INT",
+            "proficient": true,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Athletics": {
+            "ability": "STR",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Deception": {
+            "ability": "CHA",
+            "proficient": true,
+            "expert": true,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "History": {
+            "ability": "INT",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Insight": {
+            "ability": "WIS",
+            "proficient": true,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Intimidation": {
+            "ability": "CHA",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Investigation": {
+            "ability": "INT",
+            "proficient": true,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Medicine": {
+            "ability": "WIS",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Nature": {
+            "ability": "INT",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Perception": {
+            "ability": "WIS",
+            "proficient": true,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Performance": {
+            "ability": "CHA",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Persuasion": {
+            "ability": "CHA",
+            "proficient": true,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Religion": {
+            "ability": "INT",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Sleight of Hand": {
+            "ability": "DEX",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Stealth": {
+            "ability": "DEX",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        },
+        "Survival": {
+            "ability": "WIS",
+            "proficient": false,
+            "expert": false,
+            "advantage": 0,
+            "advNotes": ""
+        }
+    },
+    "MaxClassResources": {
+        "sorceryPoints": 7
+    },
+    "KnownSpells": [
+        "Acid Splash",
+        "Aid",
+        "Animal Shapes"
+    ],
+    "PreparedSpells": {
+        "Cantrip": [
+            "Acid Splash"
+        ],
+        "1st": [],
+        "2nd": [
+            "Aid"
+        ],
+        "3rd": [],
+        "4th": [],
+        "5th": [],
+        "6th": [],
+        "7th": [],
+        "8th": [],
+        "9th": []
+    }
+}
