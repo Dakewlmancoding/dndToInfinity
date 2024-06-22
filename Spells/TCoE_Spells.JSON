@@ -25,7 +25,7 @@
             },
             "range": 60,
             "dealsDamage": true,
-            "damageType": "Type",
+            "damageType": "Force",
             "damage": {
                 "amount": 4,
                 "dieType": 12,
