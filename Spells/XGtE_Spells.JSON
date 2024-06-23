@@ -42,6 +42,45 @@
             "attackType": "Save",
             "saveType": "CON",
             "effect": ""
+        },
+        "Mental Prison": {
+            "school": "Illusion",
+            "homebrew": false,
+            "spellLists": [
+                "Sorcerer",
+                "Wizard",
+                "Warlock"
+            ],
+            "castTime": "Action",
+            "isRitual": false,
+            "duration": "1 Minute",
+            "isConcentration": true,
+            "level": 6,
+            "description": "You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target\u2019s space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth.{NL}Whatever form the illusion takes, the target can\u2019t see or hear anything beyond it and is restrained for the spell\u2019s duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends.",
+            "descriptionContainsTables": false,
+            "tableData": {},
+            "components": {
+                "Verbal": false,
+                "Somatic": true,
+                "Material": false,
+                "materials": "",
+                "hasGoldCost": false
+            },
+            "range": 60,
+            "dealsDamage": true,
+            "damageType": "Psychic",
+            "damage": {
+                "amount": 5,
+                "dieType": 10,
+                "mod": 0
+            },
+            "heals": false,
+            "addsTempHp": false,
+            "increasesMaxHP": false,
+            "numTargets": 1,
+            "attackType": "Save",
+            "saveType": "INT",
+            "effect": ", Restrained"
         }
     }
 }
