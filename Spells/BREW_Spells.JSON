@@ -54,6 +54,47 @@
             "attackType": "Save",
             "saveType": "STR",
             "effect": ", Prone"
+        },
+        "Oribital Shield": {
+            "school": "Conjuration",
+            "homebrew": true,
+            "spellLists": [
+                "Artificer",
+                "Wizard",
+                "Paladin",
+                "Druid"
+            ],
+            "castTime": "Action",
+            "isRitual": false,
+            "duration": "1 Minute",
+            "isConcentration": true,
+            "level": 2,
+            "description": "You raise 4 chunks of the ground beneath your feat to oribit around you and protect you. Each chunk gives you a +2 to your AC. Whenever you are hit by a melee or ranged attack, one of the chunks flys towards your attacker dealing them 1d8 points of bludgeoning damage and you no longer beneft from its AC. {NL}The spell ends when you stop concentrating on it, or when all chunks have been flung away.",
+            "descriptionContainsTables": false,
+            "tableData": {},
+            "components": {
+                "Verbal": true,
+                "Somatic": true,
+                "Material": false,
+                "materials": "",
+                "hasGoldCost": false
+            },
+            "range": 0,
+            "dealsDamage": true,
+            "damageType": "Bludgeoning",
+            "damage": {
+                "amount": 1,
+                "dieType": 8,
+                "mod": 0
+            },
+            "heals": false,
+            "addsTempHp": false,
+            "increasesMaxHP": false,
+            "increasesAC": true,
+            "ACIncreaseAmt": 8,
+            "numTargets": 0,
+            "attackType": "None",
+            "effect": ""
         }
     }
 }
