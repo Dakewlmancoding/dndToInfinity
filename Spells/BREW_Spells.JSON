@@ -1,5 +1,59 @@
 {
     "Spells": {
-        
+        "Arcane Mass": {
+            "school": "Transmutation",
+            "homebrew": true,
+            "spellLists": [
+                "Artificer",
+                "Wizard",
+                "Warlock",
+                "Tempest Domain",
+                "Eldritch Knight"
+            ],
+            "castTime": "Action",
+            "isRitual": false,
+            "duration": "Instantaneous",
+            "isConcentration": false,
+            "level": 0,
+            "description": "You look at a creature and punch towards the ground, causing it to feel the effects of an immense weight. The creature must make a Strength saving throw . It takes 1d6 force damage and is knocked prone on a failed save. {NL}The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+            "descriptionContainsTables": false,
+            "tableData": {},
+            "components": {
+                "Verbal": false,
+                "Somatic": true,
+                "Material": false,
+                "materials": "",
+                "hasGoldCost": false
+            },
+            "range": 60,
+            "dealsDamage": true,
+            "damageType": "Force",
+            "damage": {
+                "amount": 1,
+                "dieType": 6,
+                "mod": 0
+            },
+            "heals": false,
+            "addsTempHp": false,
+            "increasesMaxHP": false,
+            "lvlScale": {
+                "5": {
+                    "type": "Dice",
+                    "totalAmount": 2
+                },
+                "11": {
+                    "type": "Dice",
+                    "totalAmount": 3
+                },
+                "17": {
+                    "type": "Dice",
+                    "totalAmount": 4
+                }
+            },
+            "numTargets": 1,
+            "attackType": "Save",
+            "saveType": "STR",
+            "effect": ", Prone"
+        }
     }
 }
