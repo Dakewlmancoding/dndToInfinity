@@ -95,6 +95,41 @@
             "numTargets": 0,
             "attackType": "None",
             "effect": ""
+        },
+        "Raise Steps": {
+            "school": "Transmutation",
+            "homebrew": true,
+            "spellLists": [
+                "Artificer",
+                "Druid",
+                "Sorcerer",
+                "Wizard"
+            ],
+            "castTime": "Action",
+            "isRitual": false,
+            "duration": "10 Minutes",
+            "isConcentration": true,
+            "level": 3,
+            "description": "You create a series of stone pillars, each 5 feet in diameter, rising from the ground. The first pillar appears at a spot within range. You can create up to 9 pillars, each 5 feet taller than the last, forming a staircase. The first pillar is 5 feet tall, the second 10 feet, and so on. If a pillar is placed on higher ground than the previous one, its height is adjusted accordingly (previous pillar's height + 5 feet - the elevation difference).{NL}Each pillar must touch the previous one and cannot overlap. All pillars are carved with steps facing the next pillar, with the caster choosing the direction of the steps on the last pillar.{NL}If a creature occupies a spot where a pillar rises, it must make a Dexterity saving throw. On a successful save, the creature jumps 5 feet away to a spot of their choice (repeating the save if necessary). On a failed save, the creature is harmlessly raised atop the pillar.{NL}Each pillar has an AC of 12, 25 HP, a damage threshold of 10, and is immune to Poison, Psychic, and Necrotic damage.{NL}When concentration ends, the pillars collapse harmlessly into dust. Any creature standing on a pillar falls, taking standard falling damage.",
+            "descriptionContainsTables": false,
+            "tableData": {},
+            "components": {
+                "Verbal": true,
+                "Somatic": true,
+                "Material": true,
+                "materials": "A pickaxe and some grout",
+                "hasGoldCost": false
+            },
+            "range": 30,
+            "dealsDamage": false,
+            "heals": false,
+            "addsTempHp": false,
+            "increasesMaxHP": false,
+            "increasesAC": false,
+            "numTargets": 0,
+            "attackType": "Save",
+            "saveType": "DEX",
+            "effect": ""
         }
     }
 }
